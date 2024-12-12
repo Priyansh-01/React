@@ -1,0 +1,88 @@
+/* General container for the TV section */
+.tv-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Styling for the grid of TV items */
+  .tv-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-items: center;
+  }
+  
+  /* Each TV product card */
+  .tv-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    text-align: center;
+  }
+  
+  /* TV image styling */
+  .tv-image {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  /* Product name */
+  h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  /* Product description */
+  p {
+    color: #666;
+    font-size: 0.95rem;
+    margin-bottom: 15px;
+  }
+  
+  /* Price styling */
+  .price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #e60023;
+    margin-bottom: 15px;
+  }
+  
+  /* Buy now button */
+  .buy-button {
+    background-color: #e60023;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect for TV cards */
+  .tv-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Hover effect for Buy Now button */
+  .buy-button:hover {
+    background-color: #c5001f;
+  }
+  

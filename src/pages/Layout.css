@@ -1,0 +1,31 @@
+/* General Navbar styling */
+.navbar {
+    background-color: #333; /* Dark background for navbar */
+    padding: 1rem;         /* Add padding to the navbar */
+    display: flex;
+    justify-content: center; /* Center the navbar items */
+  }
+  
+  /* List styling to align items horizontally */
+  .nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 2rem; /* Add space between links */
+  }
+  
+  /* Style for each nav item */
+  .nav-item {
+    color: white;  /* White text for visibility */
+    text-decoration: none; /* Remove the default underline */
+    font-size: 1.2rem; /* Slightly larger text */
+    font-weight: 500;  /* Make the font weight slightly bolder */
+    padding: 0.5rem 1rem; /* Padding for better clickable area */
+    border-radius: 5px; /* Rounded corners for links */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+  }
+  
+  /* Hover effect */
+  .nav-item:hover {
+    background-color: #575757; /* Lighter background on hover */
+  }
+  
